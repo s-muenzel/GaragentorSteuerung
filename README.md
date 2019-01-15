@@ -18,7 +18,7 @@ Mit 2 simplen Kontaktschaltern (Tastern) wird der Zustand "Tor (komplett) offen"
 Die Motorspannung geht per Vorwiderstand auf 2 Optokopler, die je nach Polung je einen Pin am Micro-Controler schalten.
 Ein Optokopler schaltet dann den Antrieb.
 
-![Schema (Eagle)](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Schema")
+![Schema (Eagle)](https://github.com/s-muenzel/GaragentorSteuerung/blob/master/Eagle/Schema.PNG "Schema")
 
 
 
