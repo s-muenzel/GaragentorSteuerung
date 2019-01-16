@@ -1,1 +1,4 @@
 Zugangsinfo.h
+*.b#?
+*.s#?
+

@@ -23,7 +23,7 @@ Ein Optokopler schaltet dann den Antrieb.
 ![Schema (Eagle)](https://github.com/s-muenzel/GaragentorSteuerung/blob/master/Eagle/Schema.PNG "Schema")
 
 ** TODO: ein Vorwiderstand für OK1 brauchts noch, wegen 3.3V MC out versus 1.2V PC817 in. **
-** TODO: ein Vorwiderstand für OK3/4 ist ~1200Ohm, nicht 220 wie im Bild. **
+** TODO: ein Vorwiderstand für OK3/4 ist ~1200 Ohm, nicht 220 wie im Bild. **
 
 #### Micro-Controler ####
 
@@ -36,4 +36,20 @@ Dann brauchts natürlichnoch ein Wifi-Shield.
 
 
 ## Software ##
+
+Benötigte Funktionalität:
+- Wifi		(WLAN Zugriff generell)
+- NTP		(Zeitsync)
+- WebServer (Steuerung von aussen)
+- MQTT		(?Alternative Steuerung?)
+
+Genereller Ablauf:
+- Setup: Wifi, NTP, WebServer/MQTT aufsetzen, Ports konfigurieren
+- Loop: Status Motor und Tor (Auf-Zu) monitoren, Falls zu den Tor-Zu-Zeiten das Tor länger nicht geschlossen ist, Tor schliessen
+
+- WebServer:
+	/Status: Tor auf,zu,öffnet gerade,schliesst gerade
+	/Auf: Wenn möglich und nötig: Tor öffnen
+	/Zu: Wenn möglich und nötig: Tor schliessen
+	
 
