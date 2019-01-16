@@ -2,23 +2,23 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/UserData/muenstrq/Documents/GitHub/GaragentorSteuerung/Eagle/GaragentorSteuerung.brd
 
-Start at      : 19:16:40 (2019-01-15)
-End at        : 19:16:47 (2019-01-15)
-Elapsed time  : 00:00:06
+Start at      : 17:24:26 (2019-01-16)
+End at        : 17:24:27 (2019-01-16)
+Elapsed time  : 00:00:00
 
-Signals       :    13   RoutingGrid: 9 mil  Layers: 2
-Connections   :    17   predefined:  0 ( 0 Vias )
+Signals       :    13   RoutingGrid: 9 mil  Layers: 1
+Connections   :    17   predefined:  17 ( 0 Vias )
 
-Router memory :   649044
+Router memory :   320052
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:03  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        17        17        17        17        17        17        17        17        17        17        17        17        17        17
+Routed            :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
